@@ -1,0 +1,18 @@
+<template name="app_findress">
+  <form class="address">
+    <input
+      type="text"
+      name="text"
+      placeholder="type address and press enter to search"
+    />
+  </form>
+  <section>
+    <h2>Results:</h2>
+    <br />
+    <h4>Search Term: {{ srch_term }}</h4>
+    Latitude: {{ lat }}<br />
+    Longitude: {{ lng }}<br />
+    Country: {{ cntry }}<br />
+    Address: {{ full_addr }}<br />
+  </section>
+</template>
